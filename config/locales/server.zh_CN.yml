@@ -1,0 +1,3 @@
+zh_CN:
+  site_settings:
+    ai_embeddings_bulk_disabled: "禁用并发AI嵌入请求"

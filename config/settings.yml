@@ -1,0 +1,6 @@
+plugins:
+  discourse_ai_patch_enabled:
+    default: true
+discourse_ai:
+  ai_embeddings_bulk_disabled:
+    default: false

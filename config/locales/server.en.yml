@@ -1,1 +1,3 @@
 en:
+  site_settings:
+    ai_embeddings_bulk_disabled: "Disable concurrent AI embedding requests"
