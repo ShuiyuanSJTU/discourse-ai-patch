@@ -1,8 +1,7 @@
 import { withPluginApi } from "discourse/lib/plugin-api";
 
 // eslint-disable-next-line no-unused-vars
-function initializeAiPatch(api) {
-}
+function initializeAiPatch(api) {}
 
 export default {
   name: "discourse-ai-patch",

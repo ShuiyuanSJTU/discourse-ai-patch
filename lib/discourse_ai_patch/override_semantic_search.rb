@@ -10,7 +10,7 @@ module DiscourseAiPatch::OverrideSemanticSearch
       使用下面用户询问的关键词，帮用户写出咨询帖子的标题和简短的内容，标题和正文之间留一个空行，不需要标注出“标题”和“正文”。直接回答，不要进行对话。
       用户输入的关键词放在了<input>与</input>之间：
 
-      <input>#{search_term.gsub(/(?<=\p{Han})\s+(?=\p{Han})/, '')}</input>
+      <input>#{search_term.gsub(/(?<=\p{Han})\s+(?=\p{Han})/, "")}</input>
     TEXT
 
     llm_response =
