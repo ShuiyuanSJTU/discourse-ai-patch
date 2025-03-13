@@ -14,8 +14,6 @@ module ::DiscourseAiPatch
   PLUGIN_NAME = "discourse-ai-patch"
 end
 
-register_asset "stylesheets/common/ai-helper.scss"
-
 require_relative "lib/discourse_ai_patch/engine"
 
 after_initialize do
