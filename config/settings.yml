@@ -4,3 +4,5 @@ plugins:
 discourse_ai:
   ai_embeddings_bulk_disabled:
     default: false
+  ai_max_summary_posts:
+    default: 2000

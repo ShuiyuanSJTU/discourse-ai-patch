@@ -1,3 +1,5 @@
 zh_CN:
   site_settings:
+    discourse_ai_patch_enabled: "启用Discourse AI补丁"
     ai_embeddings_bulk_disabled: "禁用并发AI嵌入请求"
+    ai_max_summary_posts: "最大允许生成总结的帖子数"
