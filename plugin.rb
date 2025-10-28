@@ -23,8 +23,6 @@ after_initialize do
   # Replace the default BgeLargeEn tokenizer with Chinese tokenizer
   DiscourseAi::Tokenizer::BgeLargeEnTokenizer.prepend DiscourseAiPatch::OverrideBgeLargeEnTokenizer
 
-  # Replace the prompts of semantic search and topic summary
-  DiscourseAi::Embeddings::SemanticSearch.prepend DiscourseAiPatch::OverrideSemanticSearch
   DiscourseAi::Summarization::Strategies::TopicSummary.prepend DiscourseAiPatch::OverrideTopicSummary
 
   # Display the display name of model in summary
